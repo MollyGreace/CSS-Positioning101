@@ -1,0 +1,319 @@
+/*Example A: con position static*/
+#box_1-A { 
+	position: static;
+	width: 200px;
+	height: 200px;
+	background: #ee3e64;
+}
+
+#box_2-A { 
+	position: static;
+	width: 200px;
+	height: 200px;
+	background: #44accf;
+}
+
+#box_3-A { 
+	position: static;
+	width: 200px;
+	height: 200px;
+	background: #b7d84b;
+}
+/*Example B: con position relative*/
+#box_1-B { 
+	position: relative;
+	width: 200px;
+	height: 200px;
+	background: #ee3e64;
+}
+
+#box_2-B { 
+	position: relative;
+	width: 200px;
+	height: 200px;
+	background: #44accf;
+}
+
+#box_3-B { 
+	position: relative;
+	width: 200px;
+	height: 200px;
+	background: #b7d84b;
+}
+/*Example C: con position relative y left 200px*/
+#box_1-C { 
+	position: relative;
+	width: 200px;
+	height: 200px;
+	background: #ee3e64;
+}
+
+#box_2-C { 
+  position: relative;
+	left: 200px;
+	width: 200px;
+	height: 200px;
+	background: #44accf;
+}
+
+#box_3-C { 
+	position: relative;
+	width: 200px;
+	height: 200px;
+	background: #b7d84b;
+}
+/*Example D: con position relative, left 200px, sólo cambió el HTML*/
+#box_1-D { 
+	position: relative;
+	width: 200px;
+	height: 200px;
+	background: #ee3e64;
+}
+
+#box_2-D { 
+  position: relative;
+	left: 200px;
+	width: 200px;
+	height: 200px;
+	background: #44accf;
+}
+
+#box_3-D { 
+	position: relative;
+	width: 200px;
+	height: 200px;
+	background: #b7d84b;
+}
+/*Example E: con position absolute, muestra 04 cajas en cada lado de la pantalla*/
+#box_1-E { 
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 200px;
+	height: 200px;
+	background: #ee3e64;
+}
+#box_2-E { 
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 200px;
+	height: 200px;
+	background: #44accf;
+}
+#box_3-E { 
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 200px;
+	height: 200px;
+	background: #b7d84b;
+}
+#box_4-E { 
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 200px;
+	height: 200px;
+	background: #ebde52;
+}
+/*Example F: con position absolute, muestra 04 cajas en cada lado de la pantalla y una pequeña en el centro de cada caja.*/
+#box_1-F { 
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 200px;
+	height: 200px;
+	background: #ee3e64;
+}
+#box_2-F { 
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 200px;
+	height: 200px;
+	background: #44accf;
+}
+#box_3-F { 
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 200px;
+	height: 200px;
+	background: #b7d84b;
+}
+#box_4-F { 
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 200px;
+	height: 200px;
+	background: #ebde52;
+}
+#box_a { 
+	position: absolute; 
+	top: 70px;
+	right: 70px;
+	bottom: 70px;
+	left: 70px; 
+	background: orange; 
+}
+#box_b { 
+	position: absolute; 
+	top: 70px;
+	right: 70px;
+	bottom: 70px;
+	left: 70px; 
+	background: orange; 
+}
+#box_c {
+  position: absolute; 
+	top: 70px;
+	right: 70px;
+	bottom: 70px;
+	left: 70px; 
+	background: orange;
+}
+#box_d {
+  position: absolute; 
+	top: 70px;
+	right: 70px;
+	bottom: 70px;
+	left: 70px; 
+	background: orange;
+}
+
+/*Example G: 2 grndes div coupan toda la pantalla*/
+#box_1-G {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  bottom: 10px;
+  left: 10px;
+  background: #44accf;
+}
+#box_2-G {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  bottom: 20px;
+  left: 20px;
+  background: #ff9c34;
+}
+
+/*Example H: 2 columnas ocupan toda la pantalla*/
+#box_1-H { 
+  position: absolute;
+  top: 0;
+  right: 20%;
+  bottom: 0;
+  left: 0;
+  background: #ee3e64;
+}
+#box_2-H { 
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 80%;
+  background: #b7d84b;
+}
+
+/*Example H-2: Son dos bloques juntos*/
+#box_1_H2 {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  background: #ee3e64;
+}
+#box_2_H2 {
+  position: absolute;
+  left: 100px;
+  width: 200px;
+  height: 200px;
+  background: #44accf;
+}
+
+/*Example H-3: Son dos bloques superpuestos*/
+#box_1_H3 {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  background: #ee3e64;
+}
+#box_2_H3{
+  position: absolute;
+  top: 0;
+  left: 100px;
+  width: 200px;
+  height: 200px;
+  background: #44accf;
+}
+/*Example I: Modelo de página web con footer fixed*/
+#box_1-I {
+  width: 900px;
+  margin: 0 auto;
+}
+#box_2-I {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #f95b34;
+  padding: 10px 0;
+}
+#box_2-I p {
+width: 900px;
+margin: 0 auto;
+}
+/*Example I: Modelo de página web, con bloques definidos*/
+.body {
+  margin: 0;
+  font: normal 12px/18px 'Helvetica', Arial, sans-serif;
+  background: #44accf;
+}
+#container {
+  width: 900px;
+  margin: 0 auto;
+}
+#content {
+  position: relative;
+  padding: 20px 250px 60px 20px;
+  background: #fff;
+}
+#callout {
+  position: absolute;
+  top: 100px;
+  bottom: 100px;
+  right: -80px;
+  width: 210px;
+  padding: 0 20px;
+  border-top: 5px solid #f95b34;
+  background: #fa8366;
+}
+#callout p {
+  color: #fff;
+}
+#nav {
+  height: 50px;
+  background: #b7d84b;
+}
+#nav a {
+  display: block;
+  float: left;
+  color: #fff;
+  text-decoration: none;
+  padding: 0 20px;
+  line-height: 50px;
+  border-right: 1px solid #91ab3b;
+}
+.a:hover {
+  background:  #98b928;
+}
+#footer {
+  position: fixed;
+  bottom: 0;
+  width: 860px;
+  padding: 0 20px;
+  background: #f36283;
+}
